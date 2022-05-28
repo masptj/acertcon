@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("menu.css");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-top: 20px;
+  background: transparent
+    linear-gradient(132deg, #ffffff 0%, #dde9fe 37%, #f0ebfe 71%, #ffffff 100%)
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1816px;
+  height: 7.94em;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 63px 63px 63px 63px;
+}
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1816px;
+  margin: auto;
+  background: transparent
+    linear-gradient(132deg, #ffffff 0%, #dde9fe 37%, #f0ebfe 71%, #ffffff 100%)
+    0% 0% no-repeat padding-box;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url("images/bg-trace.png");
+}
+
+.logo {
+  box-sizing: border-box;
+  margin-left: 7.69em;
+}
+
+.budget_b {
+  padding-right: 5.5em;
+}
+
+.budget {
+  box-sizing: border-box;
+  font: normal normal bold 20px/31px Quicksand;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10.56em;
+  height: 3em;
+  background: transparent
+    linear-gradient(90deg, #24dac2 0%, #3baae4 48%, #5943ca 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 16px 48px #43c2db75;
+  border-radius: 35px;
+  opacity: 1;
+}
+
+.budget:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.025);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.whatwedo {
+  box-sizing: border-box;
+  font: normal normal bold 20px/31px Quicksand;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10.75em;
+  height: 3.25em;
+  background: transparent
+    linear-gradient(90deg, #24dac2 0%, #3baae4 48%, #5943ca 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 16px 48px #43c2db75;
+  border-radius: 35px;
+  opacity: 1;
+}
+
+.whatwedo:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.025);
+}
+
+.askbudget {
+  box-sizing: border-box;
+  margin-left: 1em;
+  font: normal normal bold 20px/31px Quicksand;
+  color: #26d3cb;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.88em;
+  height: 3.25em;
+
+  /* UI Properties */
+  border: 1px solid var(--unnamed-color-26d3cb);
+  box-shadow: 0px 16px 48px #43c2db75;
+  border: 1px solid #26d3cb;
+  border-radius: 35px;
+  opacity: 1;
+}
+
+.askbudget:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.025);
+}
+
+.hero {
+  width: 40.5em;
+  padding-top: 8em;
+}
+
+.hero h1 {
+  font-size: 3.56em;
+  text-align: left;
+  color: #2a3939;
+}
+
+.hero p {
+  font-size: 1.56em;
+  color: #8ea3b4;
+}
+
+.operator {
+  padding-top: 4.63em;
+  width: 38em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: initial;
+  background-origin: content-box;
+  visibility: visible;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+
+.operator:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.025);
+}
+
+.fluid {
+  width: 100%;
+}
+
+.quadrado {
+  background-color: #5943ca;
+  width: 16px;
+  height: 16px;
+}
+
+.quadrado1 {
+  background-color: #ca4377;
+  width: 1em;
+  height: 1em;
+}
+
+.clients {
+  position: relative;
+  top: 65px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 63px 63px 63px 63px;
+  padding: 1.5em;
+  width: 82.5em;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 29px 70px #edeeff;
+}
+
+.clients img {
+  filter: grayscale(100%);
+}
+
+.clients img:hover {
+  filter: grayscale(0);
+}
+
+.surprise {
+  width: 82.5em;
+  margin: auto;
+  padding-top: 10em;
+  display: flex;
+}
+
+.surprise h2 {
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 40px/45px Quicksand;
+  color: #2a3939;
+}
+
+.surprise h2 span {
+    color: #26D3CB;
+}
+
+.surprise_h2 {
+    width: 34em;
+}
